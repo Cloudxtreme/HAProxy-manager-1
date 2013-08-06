@@ -6,11 +6,14 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../stack/logs/screen-c-sch.2013-07-26-052015.log" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375442587064" ignored="false" />
     <file path="/server.py" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375344173575" ignored="false" />
-    <file path="/client.py" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375696531185" ignored="false" />
+    <file path="/client.py" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375708172910" ignored="false" />
     <file path="/haproxy.cfg" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375686530416" ignored="false" />
     <file path="/reload_ha.sh" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375436862872" ignored="false" />
     <file path="/manage_lb.py" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375699711125" ignored="false" />
     <file path="/base_reload.sh" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375688831972" ignored="false" />
+    <file path="/a.dummy" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375771420251" ignored="false" />
+    <file path="$PROJECT_DIR$/../stack/nova/bin/nova-manage" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375771453988" ignored="false" />
+    <file path="/nova-manage" changelist="fdc4eb08-7720-42bb-a0a4-013c9c8755cf" time="1375771453988" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,90 +32,39 @@
     <favorites_list name="HttpSever" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="server.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="26" selection-start="304" selection-end="315" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#0#10#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="client.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="34" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="manage_lb.py" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/manage_lb.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0863061">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="reload_ha.sh" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reload_ha.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="12" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="haproxy_temp.cfg" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/haproxy_temp.cfg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="39" selection-start="278" selection-end="278" vertical-scroll-proportion="0.27210885">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="reload_ha_temp.sh" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reload_ha_temp.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="3" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base_reload.sh" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/base_reload.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="2" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="haproxy.cfg" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/haproxy.cfg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="43" selection-start="430" selection-end="465" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="server.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="26" selection-start="304" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="37" selection-start="497" selection-end="497" vertical-scroll-proportion="0.34013605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage_lb.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage_lb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="0" selection-start="4893" selection-end="4893" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#55#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -128,15 +80,15 @@
         <option value="$PROJECT_DIR$/base_reload.sh" />
         <option value="$PROJECT_DIR$/reload_ha_temp.sh" />
         <option value="$PROJECT_DIR$/reload_ha.sh" />
-        <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/haproxy_temp.cfg" />
         <option value="$PROJECT_DIR$/manage_lb.py" />
+        <option value="$PROJECT_DIR$/client.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="52" />
-    <option name="y" value="-1024" />
+    <option name="y" value="56" />
     <option name="width" value="1867" />
     <option name="height" value="1027" />
   </component>
@@ -265,14 +217,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="-1024" width="1867" height="1027" extended-state="0" />
-    <editor active="false" />
+    <frame x="52" y="56" width="1867" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10543657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10543657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -348,9 +300,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/base_haproxy.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="165" selection-end="165" vertical-scroll-proportion="0.17006803">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reload_ha.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="12" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.8964327">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/haproxy.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="430" selection-end="465" vertical-scroll-proportion="0.0">
+        <state line="16" column="39" selection-start="278" selection-end="278" vertical-scroll-proportion="0.27210885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reload_ha.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="856" selection-end="856" vertical-scroll-proportion="0.29344073">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_reload.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="2" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.79931974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haproxy.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="43" selection-start="430" selection-end="465" vertical-scroll-proportion="0.39115646">
           <folding />
         </state>
       </provider>
@@ -364,51 +351,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base_haproxy.conf">
+    <entry file="file://$PROJECT_DIR$/manage_lb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="165" selection-end="165" vertical-scroll-proportion="0.17006803">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_reload.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="2" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reload_ha.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="12" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="160" column="0" selection-start="4893" selection-end="4893" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#55#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reload_ha_temp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="3" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haproxy_temp.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="278" selection-end="278" vertical-scroll-proportion="0.27210885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage_lb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0863061">
+        <state line="20" column="37" selection-start="497" selection-end="497" vertical-scroll-proportion="0.34013605">
           <folding />
         </state>
       </provider>

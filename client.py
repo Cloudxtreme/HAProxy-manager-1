@@ -18,6 +18,6 @@ def run_get():
         except :
             x += 1
 
-    print x
+    print "{} Packets lost".format(x)
 
 run_get()

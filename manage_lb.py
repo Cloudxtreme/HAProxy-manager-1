@@ -16,10 +16,11 @@ servers = {
 }
 
 BASE_CONF = 'base_haproxy.conf'
-REAL_CONF = 'haproxy_temp.cfg'
-REAL_PID = 'hap.pid'
 BASE_SH = 'base_reload.sh'
-REAL_SH = 'reload_ha_temp.sh'
+
+REAL_CONF = 'haproxy.cfg'
+REAL_SH = 'reload_ha.sh'
+REAL_PID = 'hap.pid'
 
 MAX_CON_PER_SERV = 32
 

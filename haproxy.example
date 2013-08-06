@@ -1,0 +1,30 @@
+global
+    daemon
+    quiet
+    nbproc  2
+    pidfile hap.pid
+
+defaults
+    mode tcp
+    timeout connect 5000ms
+    timeout client 50000ms
+    timeout server 50000ms
+
+### LONG WAY ###
+    frontend http-in
+        bind *:8000
+        default_backend neo4j
+
+    backend neo4j
+        server s1 127.0.0.1:8001 maxconn 32
+        server s1 127.0.0.1:8002 maxconn 32
+### OR SHORT WAY ###
+    listen http-in
+        bind *:8000
+        server s1 127.0.0.1:8001 maxconn 32
+        server s1 127.0.0.1:8002 maxconn 32
+### END ###
+
+listen admin
+    bind *:8080
+    #stats enable
