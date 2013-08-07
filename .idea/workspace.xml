@@ -47,7 +47,7 @@
       <file leaf-file-name="client.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="497" selection-end="497" vertical-scroll-proportion="0.34013605">
+            <state line="22" column="9" selection-start="508" selection-end="508" vertical-scroll-proportion="0.37414965">
               <folding />
             </state>
           </provider>
@@ -88,7 +88,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="52" />
-    <option name="y" value="56" />
+    <option name="y" value="-978" />
     <option name="width" value="1867" />
     <option name="height" value="1027" />
   </component>
@@ -217,8 +217,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="56" width="1867" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="52" y="-978" width="1867" height="1027" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -362,7 +362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="497" selection-end="497" vertical-scroll-proportion="0.34013605">
+        <state line="22" column="9" selection-start="508" selection-end="508" vertical-scroll-proportion="0.37414965">
           <folding />
         </state>
       </provider>
