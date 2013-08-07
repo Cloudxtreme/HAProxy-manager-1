@@ -31,7 +31,7 @@ def call(num):
     try:
         resp = urllib.urlopen(_BASE_URL.format(_BASE_IP, num))
         server_info = resp.read()
-        print "Request #{} was processed by {}".format(number, server_info)
+        print "Request #{} was processed by {}".format(num, server_info)
     except:
         return 1
 
