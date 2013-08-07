@@ -35,7 +35,7 @@ def call(num):
     except:
         return 1
 
-    if resp.code !== 200:
+    if resp.code != 200:
         return 1
     
     return 0
