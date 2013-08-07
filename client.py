@@ -54,6 +54,6 @@ def run_get():
     
     # jobs = [call(num) for num in xrange(CALLS_RANGE)]
     # x = sum([job for job in jobs])
-    print "{} Packets lost".format(x)
+    print "{} Packets lost".format(lost)
 
 run_get()
