@@ -20,7 +20,7 @@ except:
 _BASE_URL= "http://{}/{}"
 _BASE_IP = params.get('-s') or '127.0.0.1:9000'
 
-GROUPS = int(params.get('-g',0)) or 50
+CONCURENT_QUERIES = int(params.get('-g',0)) or 50
 CALLS_RANGE = int(params.get('-c', 0)) or 10000
 
 print _BASE_IP
@@ -45,10 +45,10 @@ def run_get():
         Get queries for Load balancer test
     """
     lost = 0
-    groups = CALLS_RANGE / GROUPS
+    batch_count = CALLS_RANGE / CONCURENT_QUERIES
     
-    for i in xrange(groups):
-        jobs = [gevent.spawn(call, num) for num in xrange(CALLS_RANGE)]
+    for i in xrange(batch_count):
+        jobs = [gevent.spawn(call, num) for num in xrange(CONCURENT_QUERIES)]
         gevent.joinall(jobs)
         lost += sum([job.value for job in jobs])
     
