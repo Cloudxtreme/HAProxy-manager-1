@@ -11,7 +11,7 @@ import getopt
 
 argv = sys.argv[1:]
 try:
-    args, stuff = getopt.getopt(argv, "hs:c:")
+    args, stuff = getopt.getopt(argv, "hs:c:g:")
     params =  dict(args)
 except:
     params = dict()
@@ -20,7 +20,8 @@ except:
 _BASE_URL= "http://{}/{}"
 _BASE_IP = params.get('-s') or '127.0.0.1:9000'
 
-CALLS_RANGE = params.get('-c') or 10000
+GROUPS = int(params.get('-g',0)) or 50
+CALLS_RANGE = int(params.get('-c', 0)) or 10000
 
 print _BASE_IP
 
@@ -34,16 +35,23 @@ def call(num):
     except:
         return 1
 
+    if resp.code !== 200:
+        return 1
+    
     return 0
 
 def run_get():
     """
         Get queries for Load balancer test
     """
+    lost = 0
+    groups = CALLS_RANGE / GROUPS
     
-    jobs = [gevent.spawn(call, num) for num in xrange(CALLS_RANGE)]
-    gevent.joinall(jobs)
-    x = sum([job.value for job in jobs])
+    for i in xrange(groups):
+        jobs = [gevent.spawn(call, num) for num in xrange(CALLS_RANGE)]
+        gevent.joinall(jobs)
+        lost += sum([job.value for job in jobs])
+    
     # jobs = [call(num) for num in xrange(CALLS_RANGE)]
     # x = sum([job for job in jobs])
     print "{} Packets lost".format(x)
