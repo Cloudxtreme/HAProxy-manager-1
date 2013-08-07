@@ -7,7 +7,7 @@ urls = (
 app = web.application(urls, globals())
 
 
-SERVER_NAME = sys.argv[1].split(":")[1]
+SERVER_NAME = sys.argv[1]
 
 
 class MainHandler:
